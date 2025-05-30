@@ -219,6 +219,9 @@
   .w-\[90\%\] {
     width: 90%;
   }
+  .w-\[90\] {
+    width: 90;
+  }
   .max-w-\[18ch\] {
     max-width: 18ch;
   }
@@ -375,6 +378,16 @@
       margin-bottom: calc(var(--spacing) * 20);
     }
   }
+  .md\:w-auto {
+    @media (width >= 48rem) {
+      width: auto;
+    }
+  }
+  .md\:w-full {
+    @media (width >= 48rem) {
+      width: 100%;
+    }
+  }
   .md\:max-w-\[34ch\] {
     @media (width >= 48rem) {
       max-width: 34ch;
@@ -393,6 +406,12 @@
   .md\:max-w-none {
     @media (width >= 48rem) {
       max-width: none;
+    }
+  }
+  .md\:-translate-x-\[15\%\] {
+    @media (width >= 48rem) {
+      --tw-translate-x: calc(15% * -1);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
     }
   }
   .md\:grid-cols-3 {
