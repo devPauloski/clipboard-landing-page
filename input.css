@@ -13,4 +13,8 @@
 
   --text-24-42: clamp(1.5rem, 1.1087rem + 1.9565vw, 2.625rem);
   --text-22-34: clamp(1.375rem, 1.1141rem + 1.3043vw, 2.125rem);
+
+  /* Spacing */
+    /* @link https://utopia.fyi/clamp/calculator?a=768,1240,16—48&p=spacing */
+  --spacing-16-48: clamp(1rem, -2.2542rem + 6.7797vw, 3rem);
 }

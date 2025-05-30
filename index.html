@@ -10,43 +10,46 @@
   <body class="font-bai-jamjuree text-lg leading-normal font-normal text-gray-500  bg-[url(/images/bg-header-mobile.png)] md:bg-[url(/images/bg-header-desktop.png)] bg-no-repeat bg-contain bg-top">
     <main class="my-28">
       <header class="max-w-[35rem] md:max-w-[69.375rem] mx-auto w-[90%] flex flex-col items-center text-center mb-40">
-        <img class="max-w-full mb-16 size-32" src="./images/logo.svg" alt="">
-        <h1 class="text-24-42 leading-tight text-gray-700 font-semibold text-balance mb-5">A history of everything you copy</h1>
+        <a href="#" aria-label="Clipboard landing page">
+          <img class="max-w-full mb-16 size-32" src="./images/logo.svg" alt="">
+        </a>
+        <h1 class="mb-5 font-semibold leading-tight text-gray-700 text-24-42 text-balance">A history of everything you copy</h1>
         <p class="max-w-[54ch] mb-12">
           Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.
         </p>
         <div class="flex flex-col md:flex-row gap-5 justify-center w-[90%]">
-          <button class="cursor-pointer py-5 px-12 leading-tight text-white bg-green-500 rounded-full inline-flex justify-center items-center">Download for iOS</button>
-          <button class="cursor-pointer py-5 px-12 leading-tight text-white bg-blue-100 rounded-full inline-flex justify-center items-center">Download for Mac</button>
+          <button class="inline-flex items-center justify-center px-12 py-5 leading-tight text-white bg-green-500 rounded-full cursor-pointer">Download for iOS</button>
+          <button class="inline-flex items-center justify-center px-12 py-5 leading-tight text-white bg-blue-100 rounded-full cursor-pointer">Download for Mac</button>
         </div>
       </header>
-      <section class="mb-40">
-        <div class="max-w-[35rem] md:max-w-[69.375rem] mx-auto w-[90%] text-center">
-          <h2 class="text-22-34 text-gray-700 font-semibold leading-tight max-w-[18ch] md:max-w-none mx-auto mb-5">Keep track of your snippets</h2>
+      <section class="mb-40 text-center">
+        <div class="max-w-[35rem] md:max-w-[69.375rem] mx-auto w-[90%]">
+          <h2 class="text-22-34 text-gray-700 font-semibold leading-tight max-w-[18ch] md:max-w-none mx-auto mb-5">Keep track
+            of your snippets</h2>
           <p class="max-w-[60ch] mx-auto mb-16 md:mb-20">
             Clipboard instantly stores any item you copy in the cloud,
-            meaning you can access your snippets immediately on all your 
+            meaning you can access your snippets immediately on all your
             devices. Our Mac and iOS apps will help you organize everything.
           </p>
-          <div class="grid gap-14 md:gap-0 md:grid-cols-2">
-            <img class="md:-translate-x-[20%] md:h-full" src="./images/image-computer.png" alt="Computer">
-            <div class="md:text-left">
-              <section>
-                <h3 class="text-xl text-gray-700 font-semibold mb-5 leading-tight">Quick Search</h3>
-                <p class="md:max-w-[34ch] mb-12">
-                  Easily search your snippets by content, category,
-                  web address, application, and more.
-                </p>
-              </section>
-              <section>
-                <h3 class="text-xl text-gray-700 font-semibold mb-5 leading-tight">iCloud Sync</h3>
-                <p class="md:max-w-[34ch] mb-12">Instantly saves and syncs snippets across all your devices.</p>
-              </section>
-              <section>
-                <h3 class="text-xl text-gray-700 font-semibold mb-5 leading-tight">Complete History</h3>
-                <p class="md:max-w-[34ch]">Retrieve any snippets from the first moment you started using the app.</p>
-              </section>
-            </div>
+        </div>
+        <div class="grid gap-14 md:gap-0 md:grid-cols-[auto_auto] place-items-center max-w-[35rem] md:max-w-[82.5rem] mx-auto md:overflow-x-hidden">
+          <img class="-translate-x-[15%]" src="./images/image-computer.png" alt="Computer">
+          <div class="md:text-start md:pr-[5%]">
+            <section class="mb-12 md:mb-16-48">
+              <h3 class="mb-4 text-xl font-semibold leading-tight text-gray-700">Quick Search</h3>
+              <p class="md:max-w-[34ch]">
+                Easily search your snippets by content, category,
+                web address, application, and more.
+              </p>
+            </section>
+            <section class="mb-12 md:mb-16-48">
+              <h3 class="mb-4 text-xl font-semibold leading-tight text-gray-700">iCloud Sync</h3>
+              <p class="md:max-w-[34ch]">Instantly saves and syncs snippets across all your devices.</p>
+            </section>
+            <section>
+              <h3 class="mb-4 text-xl font-semibold leading-tight text-gray-700">Complete History</h3>
+              <p class="md:max-w-[34ch]">Retrieve any snippets from the first moment you started using the app.</p>
+            </section>
           </div>
         </div>
       </section>
@@ -67,17 +70,17 @@
           <h2>Supercharge your workflow</h2>
           <p>We’ve got the tools to boost your productivity.</p>
           <div class="grid gap-4 md:grid-cols-3">
-            <section class="flex flex-col justify-center items-center">
+            <section class="flex flex-col items-center justify-center">
               <img src="./images/icon-blacklist.svg" alt="blacklist">
               <h3>Create blacklists</h3>
               <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
             </section>
-            <section class="flex flex-col justify-center items-center">
+            <section class="flex flex-col items-center justify-center">
               <img src="./images/icon-text.svg" alt="text snippet">
               <h3>Plain text snippets</h3>
               <p>Remove unwanted formatting from copied text for a consistent look.</p>
             </section>
-            <section class="flex flex-col justify-center items-center">
+            <section class="flex flex-col items-center justify-center">
               <img src="./images/icon-preview.svg" alt="preview">
               <h3>Sneak preview</h3>
               <p>Quick preview of all snippets on your Clipboard for easy access.</p>

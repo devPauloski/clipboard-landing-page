@@ -8,6 +8,8 @@
     "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "prettier": {
-    "plugins": ["prettier-plugin-tailwindcss"]
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
   }
 }
