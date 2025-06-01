@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of webpage](./screenshot.jpg)
+![Preview of web page](webpreview.png)
 
 ### Built with
 
