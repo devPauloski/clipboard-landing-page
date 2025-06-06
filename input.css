@@ -17,4 +17,8 @@
   /* Spacing */
     /* @link https://utopia.fyi/clamp/calculator?a=768,1240,16—48&p=spacing */
   --spacing-16-48: clamp(1rem, -2.2542rem + 6.7797vw, 3rem);
+
+  /* Shadow */
+  --shadow-btn-ios: 0px 1px 1px 2px hsl(169, 68%, 34%);
+  --shadow-btn-mac: 0px 1px 1px 2px hsl(233, 44%, 55%);
 }
