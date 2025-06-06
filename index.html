@@ -107,20 +107,35 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="max-w-[30rem] md:max-w-[69.375rem] mx-auto w-[90%] text-center">
-        
-
-    
-
-    
-    
-
-    FAQs
-    Contact Us
-    Privacy Policy
-    Press Kit
-    Install Guide
+    <footer class="py-12 bg-gray-100">
+      <div class="max-w-[30rem] md:max-w-[69.375rem] mx-auto w-[90%] text-center grid md:grid-cols-[auto_1fr] gap-11 md:gap-12 lg:gap-28 max-[48rem]:place-items-center">
+        <img class="w-14" src="./images/logo.svg" alt="">
+        <nav class="flex justify-between max-[48rem]:flex-col max-[48rem]:gap-11">
+          <ul class="grid gap-8 md:gap-y-5 md:gap-x-10 lg:gap-x-20 md:grid-cols-3 md:place-items-start">
+            <li><a href="#">FAQs</a></li>
+            <li class="md:col-start-1 md:row-start-2"><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li class="md:col-start-2 md:row-start-2"><a href="#">Press Kit</a></li>
+            <li><a href="#">Install Guide</a></li>
+          </ul>
+          <ul aria-label="Social links" class="flex md:self-center gap-9 md:gap-6">
+            <li><a aria-label="Facebook" href="https://web.facebook.com/">
+              <svg class="w-6 icon aspect-square">
+                <use xlink:href="./images/social-icons.svg#icon-facebook"></use>
+              </svg>
+            </a></li>
+            <li><a aria-label="Twitter" href="https://x.com/">
+              <svg class="w-6 icon aspect-square">
+                <use xlink:href="./images/social-icons.svg#icon-twitter"></use>
+              </svg>
+            </a></li>
+            <li><a aria-label="Instagram" href="https://www.instagram.com/">
+              <svg class="w-6 icon aspect-square">
+                <use xlink:href="./images/social-icons.svg#icon-instagram"></use>
+              </svg>
+            </a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </body>
