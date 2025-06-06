@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Webpage Preview
 
-![Preview of web page](webpreview.png)
+![Preview of web page](webpage-preview.png)
 
 ### Built with
 
